@@ -1,0 +1,8 @@
+func add () -> int{
+    let a = 156536;
+    let b = 6742;
+    return a + b;
+}
+
+let c = add();
+c

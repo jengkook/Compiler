@@ -1,11 +1,11 @@
 #![allow(clippy::needless_return)]
 #![allow(dead_code)]
 #![allow(unused_assignments)]
+#![allow(unused_imports)]
 
 
 use std::fs::File;
 use std::io::Read;
-use std::string;
 
 use termion::input;
 
@@ -37,8 +37,8 @@ fn main() -> Result<(), ()> {
         }
     };
 
-    if file_extension != "bs"{
-        println!("the file cannot be compiled");
+    if file_extension != "cx"{
+        println!("the file cannot be compiled: Unknown file extension {}" , file_extension);
         std::process::exit(1);
     }
     // println!("{}",file_extension);

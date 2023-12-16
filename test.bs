@@ -1,5 +1,0 @@
-let y = 8;
-let z = 89.09;
-let r = z*y;
-let x = "string lets check this"
-r

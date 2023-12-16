@@ -1,4 +1,4 @@
-use std::fmt::{Display, Formatter, write};
+use std::fmt::{Display, Formatter};
 use crate::text::span::TextSpan;
 
 #[derive(Debug, PartialEq, Clone)]
